@@ -28,7 +28,7 @@ load_dotenv()
 # Configuration
 CLIENT_ID = os.environ.get("SECURE_ENDPOINT_CLIENT_ID")
 API_KEY = os.environ.get("SECURE_ENDPOINT_API_KEY")
-BASE_URL = "https://api.amp.cisco.com/v1"
+BASE_URL = "https://api.apjc.amp.cisco.com/v1"
 HEADERS = {"Accept": "application/json"}
 
 # MCP imports
