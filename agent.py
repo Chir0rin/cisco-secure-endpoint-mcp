@@ -1,6 +1,9 @@
 import mcp
 import requests
 import os
+from dotenv import load_dotenv
+
+load_dotenv()
 
 # Authentication information (retrieved from environment variables)
 CLIENT_ID = os.environ.get("SECURE_ENDPOINT_CLIENT_ID")
