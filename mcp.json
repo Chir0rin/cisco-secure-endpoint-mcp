@@ -1,0 +1,6 @@
+{
+  "name": "secure-endpoint-agent",
+  "description": "MCP agent for Cisco Secure Endpoint APIs",
+  "entrypoint": "python3 agent.py",
+  "version": "0.1.0"
+}
